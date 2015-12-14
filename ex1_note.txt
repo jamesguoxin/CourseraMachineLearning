@@ -1,0 +1,3 @@
+Important:
+Need to normalize the features first, otherwise will face severe explosition problem!!
+For example, without normalization, the cost of multi-variant linear regression will soon become 10^30, no matter what learning rate you are using!
