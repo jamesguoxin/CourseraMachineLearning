@@ -26,7 +26,7 @@ def read_file_mulv(file_path):
     return x, y
 
 def main_1v():
-    x, y = read_file_1v("machine-learning-ex1/ex1/ex1data1.txt")
+    x, y = read_file_1v("../machine-learning-ex1/ex1/ex1data1.txt")
     X = np.asarray(x)
     Y = np.asarray(y)
 
